@@ -76,6 +76,21 @@
       margin-top: 20px;
     }
 
+    /* Big Beating Heart */
+    .big-heart {
+      font-size: 70px;
+      margin-top: 20px;
+      animation: beat 1s infinite;
+    }
+
+    @keyframes beat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.2); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
     /* Floating Hearts */
     .heart {
       position: absolute;
@@ -119,12 +134,7 @@
 
     <h2>🌸 Promise Day 🌸</h2>
 
-    <p>
-      From my heart to yours,  
-      I want to ask you something meaningful.
-    </p>
-
-    <h2>Will you promise me something? 🤍</h2>
+    <p>Will you promise me something? 🤍</p>
 
     <div class="buttons">
       <button class="yes" onclick="showPromise()">YES 💕</button>
@@ -135,27 +145,19 @@
       <h2>💍 My Promise to You 💍</h2>
 
       <p>
-        By clicking yes, I promise to always stand by your side  
-        as your better half — in happiness and in challenges.<br><br>
-
-        I promise to love you sincerely and faithfully  
-        for the rest of my life,  
-        to respect you, protect you, and cherish you.<br><br>
-
-        I promise to grow with you spiritually,  
-        to keep God at the center of our relationship,  
-        and to walk this journey hand in hand,  
-        trusting His plan for us.<br><br>
-
-        I choose you today, tomorrow, and always —  
-        my future wife, my blessing,  
-        and the love of my life. ❤️🙏
+        By clicking yes, I promise to always stand by your side as your better half,
+        to love you sincerely for the rest of my life,
+        and to grow together with you spiritually, keeping God at the center of our journey. 🙏❤️
       </p>
 
       <p class="verse">
         “Therefore what God has joined together, let no one separate.”  
         — Mark 10:9 ✝️
       </p>
+
+      <!-- LOVE YOU ACHHU -->
+      <h2 style="color:#d6336c; margin-top:25px;">LOVE YOU ACHHU 💖</h2>
+      <div class="big-heart">❤️</div>
 
       <p><strong>Happy Promise Day, my forever 🤍</strong></p>
     </div>
